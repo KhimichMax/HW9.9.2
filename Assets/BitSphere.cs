@@ -16,7 +16,7 @@ public class BitSphere : MonoBehaviour
 
     private void X()
     {
-        obj.AddForce(0, 0, 10, ForceMode.Impulse);
+        obj.AddForce(0, 0, 5, ForceMode.VelocityChange);
     }
 
     private void FixedUpdate()
